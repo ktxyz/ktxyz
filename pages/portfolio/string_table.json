@@ -1,0 +1,74 @@
+[
+    {
+        "KEY": "BriefBIO",
+        "VALUE": "I'm a 22-year-old self-taught developer from Poland, currently working as a gameplay engineer at a small indie company. I'm also pursuing a master's degree in Computer Science at <b>PJATK</b>. As a generalist, I have a broad range of skills, but I particularly focus on C++, Unreal Engine, and algorithms. I also frequently work with Python and web frameworks like Flask and Django."
+    },
+    {
+        "KEY": "GAMEPLAY_ENGINEER",
+        "VALUE": "Gameplay Engineer"
+    },
+    {
+        "KEY": "SOFTWARE_DEVELOPER",
+        "VALUE": "Software Developer"
+    },
+    {
+        "KEY": "JUNIOR_PROGRAMMER",
+        "VALUE": "Junior Programmer"
+    },
+    {
+        "KEY": "SELF_EMPLOYED",
+        "VALUE": "Self-Employed"
+    },
+    {
+        "KEY": "FIND_ME",
+        "VALUE": "Contact me"
+    },
+    {
+        "KEY": "SKILLS",
+        "VALUE": "Skills"
+    },
+    {
+        "KEY": "Blueprints",
+        "VALUE": "Blueprints"
+    },
+    {
+        "KEY": "GameplayAI",
+        "VALUE": "Gameplay/AI"
+    },
+    {
+        "KEY": "Algorithms",
+        "VALUE": "Algorithms"
+    },
+    {
+        "KEY": "DUALITY_WORK_DESC",
+        "VALUE": "It's and indie company so I wear many hats. I've worked on gameplay, UI, and more. I also created a custom plugins for the game. I'm looking out for games' performance and optimization."
+    },
+    {
+        "KEY": "UNHOLY_DESC",
+        "VALUE": "My role in this project mainly boiled down to gameplay engineering. I was responsible for gameplay / interaction systems, some UI as well as more general tasks like performance optimization. I also worked on the lower-level stuff like plugin integrations, which was a lot of fun! And after over 2 years of my work, and even more from some of the team, the game is finally out!"
+    },
+    {
+        "KEY": "BARNFINDERS_DESC",
+        "VALUE": "I've worked on both released DLCs. I also created a feedback system for the base game. Bees are mine!"
+    },
+    {
+        "KEY": "SELFEMP_WORK_DESC",
+        "VALUE": "As a freelance developer, I created a variety of different software solutions for my clients. This included pretty much everything from web apps to C plugins for email servers. One of the more memorable projects was a rtsp overlay server written in Python!"
+    },
+    {
+        "KEY": "TIPSY_DESC",
+        "VALUE": "Tipsy is my propriatery e-commerce platform for e-learning written from scratch in Django. It supports video, payments from multiple-vendors, promotions, coupons, newsletter, and more. It has been used in projects with over 5k users."
+    },
+    {
+        "KEY": "ATINEA_WORK_DESC",
+        "VALUE": "During my time at Atinea, I worked on web development and provided some help with algorithms for a national programming competition for kids. I had the pleasure of working for/with one of the greatest competetive programmer in my country"
+    },
+    {
+        "KEY": "INSTALOGIK_DESC",
+        "VALUE": "Nation wide programming competetition for kids. I was a part of the original team behind both the platform itself and the tasks."
+    },
+    {
+        "KEY": "SHOW_PROJECTS",
+        "VALUE": "Show projects"
+    }
+]

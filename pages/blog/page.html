@@ -1,0 +1,34 @@
+{% extends 'pages/page.html' %}
+
+{% block content %}
+<div class="blog-parent">
+    <section>
+        <img src="" alt="">
+        <h2></h2>
+        <p></p>
+    </section>
+    <section>
+        {% for post in _POSTS %}
+        <a href="{{ post | get_url }}" class="pill post-link-anchor">
+            <div class="post-link">
+                <h2>{{ post.name | get_ttext }}</h2>
+                <section style="display: flex; justify-content: space-between; align-items: flex-start;">
+                    <h5 class="pill {{ post.context.date_class }}">{{ post.date }}</h5>
+                    <div class="tag-container" style="max-width: 70%;">
+                        {% for tag in post.context.tags %}
+                        <span class="pill {{tag.class}} tag">
+                            {{ tag.name | get_ttext }}
+                        </span>
+                        {% endfor %}
+                    </div>
+                </section>
+                <p>{{ post.context.desc | get_ttext }}</p>
+            </div>
+        </a>
+        {% else %}
+        <h2>No posts available</h2>
+        {% endfor %}
+
+    </section>
+</div>
+{% endblock %}

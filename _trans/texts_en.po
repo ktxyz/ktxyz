@@ -1,0 +1,112 @@
+#
+msgid ""
+msgstr ""
+
+msgid "LICENSE_TEXT"
+msgstr "Website published under the"
+
+msgid "LICENSE_NAME"
+msgstr "MIT License"
+
+msgid "BUILT_WITH"
+msgstr "BUILT WITH"
+
+msgid "portfolio"
+msgstr "Portfolio"
+
+msgid "blog"
+msgstr "Blog"
+
+msgid "reverse-engineering-gym-app"
+msgstr "Reverse-Engineering a Gym App for Fun & Friends"
+
+msgid "BriefBIO"
+msgstr ""
+"I'm a 22-year-old self-taught developer from Poland, currently working as a "
+"gameplay engineer at a small indie company. I'm also pursuing a master's "
+"degree in Computer Science at <b>PJATK</b>. As a generalist, I have a broad "
+"range of skills, but I particularly focus on C++, Unreal Engine, and "
+"algorithms. I also frequently work with Python and web frameworks like Flask"
+" and Django."
+
+msgid "GAMEPLAY_ENGINEER"
+msgstr "Gameplay Engineer"
+
+msgid "SOFTWARE_DEVELOPER"
+msgstr "Software Developer"
+
+msgid "JUNIOR_PROGRAMMER"
+msgstr "Junior Programmer"
+
+msgid "SELF_EMPLOYED"
+msgstr "Self-Employed"
+
+msgid "FIND_ME"
+msgstr "Contact me"
+
+msgid "SKILLS"
+msgstr "Skills"
+
+msgid "Blueprints"
+msgstr "Blueprints"
+
+msgid "GameplayAI"
+msgstr "Gameplay/AI"
+
+msgid "Algorithms"
+msgstr "Algorithms"
+
+msgid "DUALITY_WORK_DESC"
+msgstr ""
+"It's and indie company so I wear many hats. I've worked on gameplay, UI, and"
+" more. I also created a custom plugins for the game. I'm looking out for "
+"games' performance and optimization."
+
+msgid "UNHOLY_DESC"
+msgstr ""
+"My role in this project mainly boiled down to gameplay engineering. I was "
+"responsible for gameplay / interaction systems, some UI as well as more "
+"general tasks like performance optimization. I also worked on the lower-"
+"level stuff like plugin integrations, which was a lot of fun! And after over"
+" 2 years of my work, and even more from some of the team, the game is "
+"finally out!"
+
+msgid "BARNFINDERS_DESC"
+msgstr ""
+"I've worked on both released DLCs. I also created a feedback system for the "
+"base game. Bees are mine!"
+
+msgid "SELFEMP_WORK_DESC"
+msgstr ""
+"As a freelance developer, I created a variety of different software "
+"solutions for my clients. This included pretty much everything from web apps"
+" to C plugins for email servers. One of the more memorable projects was a "
+"rtsp overlay server written in Python!"
+
+msgid "TIPSY_DESC"
+msgstr ""
+"Tipsy is my propriatery e-commerce platform for e-learning written from "
+"scratch in Django. It supports video, payments from multiple-vendors, "
+"promotions, coupons, newsletter, and more. It has been used in projects with"
+" over 5k users."
+
+msgid "ATINEA_WORK_DESC"
+msgstr ""
+"During my time at Atinea, I worked on web development and provided some help"
+" with algorithms for a national programming competition for kids. I had the "
+"pleasure of working for/with one of the greatest competetive programmer in "
+"my country"
+
+msgid "INSTALOGIK_DESC"
+msgstr ""
+"Nation wide programming competetition for kids. I was a part of the original"
+" team behind both the platform itself and the tasks."
+
+msgid "SHOW_PROJECTS"
+msgstr "Show projects"
+
+msgid "RE_POST_1_DESC"
+msgstr ""
+"Overcoming tech limitations: My journey of reverse-engineering a local gym's"
+" app to include older Android devices, highlighting issues of digital "
+"exclusion."

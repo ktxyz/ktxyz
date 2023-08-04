@@ -1,0 +1,67 @@
+{
+    "WORKS": [
+        {
+            "id": "duality",
+            "role": "GAMEPLAY_ENGINEER",
+            "company": "Duality S.A",
+            "time": "2020 - ",
+            "desc": "DUALITY_WORK_DESC",
+            "projects": [
+                {
+                    "name": "Unholy",
+                    "name_class": "pastel-burgundy",
+                    "link": "https://store.steampowered.com/app/817020/Unholy/",
+                    "image_url": "/static/imgs/unholy.jpg",
+                    "status": "RELEASED",
+                    "status_class": "pastel-apple-green",
+                    "desc": "UNHOLY_DESC"
+                },
+                {
+                    "name": "Barn Finders DLC",
+                    "name_class": "pastel-peach",
+                    "link": "https://store.steampowered.com/app/991170/Barn_Finders/",
+                    "image_url": "/static/imgs/barnfinders.jpg",
+                    "status": "RELEASED",
+                    "status_class": "pastel-apple-green",
+                    "desc": "BARNFINDERS_DESC"
+                }
+            ]
+        },
+        {
+            "id": "selfemployed",
+            "role": "SOFTWARE_DEVELOPER",
+            "company": "SELF_EMPLOYED",
+            "time": "2019 - 2021",
+            "desc": "SELFEMP_WORK_DESC",
+            "projects": [
+                {
+                    "name": "Tipsy",
+                    "name_class": "pastel-rose",
+                    "link": "https://szkolenie.smperfekcja.pl/maxi-brow-expert",
+                    "image_url": "/static/imgs/tipsy.png",
+                    "status": "RELEASED",
+                    "status_class": "pastel-apple-green",
+                    "desc": "TIPSY_DESC"
+                }
+            ]
+        },
+        {
+            "id": "atinea",
+            "role": "JUNIOR_PROGRAMMER",
+            "company": "Atinea",
+            "time": "2018 - 2019",
+            "desc": "ATINEA_WORK_DESC",
+            "projects": [
+                {
+                    "name": "InstaLogik",
+                    "name_class": "pastel-teal",
+                    "link": "https://instalogik.pl/",
+                    "image_url": "/static/imgs/instalogik.png",
+                    "status": "RELEASED",
+                    "status_class": "pastel-apple-green",
+                    "desc": "INSTALOGIK_DESC"
+                }
+            ]
+        }
+    ]
+}

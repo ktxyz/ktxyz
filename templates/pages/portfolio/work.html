@@ -1,0 +1,32 @@
+<section class="work">
+    <section>
+        <h2>{{ work.role | get_ttext }}</h2>
+        <h3>{{ work.company | get_ttext }}</h3>
+        <h4>{{ work.time }}</h4>
+        <p>{{ work.desc | get_ttext }}</p>
+    </section>
+    {% if work.projects %}
+    <span class="dropdown-anchor" data-id="dropdown-{{work.id}}">
+        <h5>{{ SHOW_PROJECTS }} ▼</h5>
+    </span>
+    <section class="dropdown" id="dropdown-{{ work.id }}">
+    {% for project in work.projects %}
+        {% if project.image_url %}
+        <section class="project">
+            <img class="project-img" src="{{ project.image_url }}" alt="{{ project.name | get_ttext }}">
+        {% else %}
+            <section style="margin-left: 30%">
+        {% endif %}
+        <section class="project-info">
+            <div style="display: flex; align-items: flex-start; margin-top: 0;">
+                <a href="{{ project.link }}" target="_blank"><h3 class="pill {{ project.name_class }}" style="display: inline-block; margin-top: 0;">{{ project.name | get_ttext }}</h3></a>
+                <span style="margin-left: 1rem; font-size: .8rem; padding: .2rem" class="pill {{ project.status_class }}">{{ project.status | get_ttext }}</span>
+            </div>
+            <p>{{ project.desc | get_ttext }}</p>
+        </section>
+    </section>
+{% endfor %}
+</section>
+{% endif %}
+
+</section>
