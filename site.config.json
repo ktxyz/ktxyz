@@ -10,7 +10,7 @@
     "site_index_page": "portfolio",
     "site_blog_page": "blog",
 
-    "site_pages": ["portfolio", "blog"],
+    "site_pages": ["portfolio", "blog", "cv"],
     "site_posts": [],
 
     "site_static_path": "static",

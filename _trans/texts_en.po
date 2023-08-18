@@ -1,6 +1,16 @@
 #
 msgid ""
 msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
 
 msgid "LICENSE_TEXT"
 msgstr "Website published under the"
@@ -100,7 +110,9 @@ msgstr ""
 msgid "INSTALOGIK_DESC"
 msgstr ""
 "Nation wide programming competetition for kids. I was a part of the original"
-" team behind both the platform itself and the tasks."
+" team behind both the platform itself and the tasks. Had the pleasure of "
+"working for/with one of the gratest competetive programmers in Poland's "
+"history - Adam Gąsienica-Samek."
 
 msgid "SHOW_PROJECTS"
 msgstr "Show projects"
@@ -110,3 +122,25 @@ msgstr ""
 "Overcoming tech limitations: My journey of reverse-engineering a local gym's"
 " app to include older Android devices, highlighting issues of digital "
 "exclusion."
+
+msgid "cv"
+msgstr "CV"
+
+msgid "_ROLES"
+msgstr "Roles"
+
+msgid "_PROJECTS"
+msgstr "Projects"
+
+msgid "_LINK"
+msgstr "Link"
+
+msgid "MILTER_NOTIFY_DESC"
+msgstr ""
+"Milter Notify is a milter which notifies you when server receives new email."
+
+msgid "SKE_PROJECT_DESC"
+msgstr ""
+"A whole education platform for teaching programming to kids. Comes with a "
+"web app, interpreted language easy to learn, contest/task system and more! "
+"Tested on over 100 participants!"

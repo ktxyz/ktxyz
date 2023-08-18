@@ -1,3 +1,4 @@
+{% block nav_site %}
 <ul>
     {% for element in _SITE_MAP.elements.values() %}
         {% if element.type.value == 0 %}
@@ -10,6 +11,7 @@
         {% endif %}
     {% endfor %}
 </ul>
+{% endblock %}
 <ul>
     {% for lang in _CONFIG.site_languages %}
         {% set lang_args = {'lang': lang, 'element': _ELEMENT} %}

@@ -113,7 +113,9 @@ msgstr ""
 msgid "INSTALOGIK_DESC"
 msgstr ""
 "Concurso nacional de programación para niños. Formé parte del equipo "
-"original de la plataforma y de las tareas."
+"original de la plataforma y de las tareas. Tuve el placer de trabajar con "
+"uno de los mejores programadores competitivos de la historia de Polonia: "
+"Adam Gąsienica-Samek."
 
 msgid "SHOW_PROJECTS"
 msgstr "Mostrar proyectos"
@@ -123,3 +125,26 @@ msgstr ""
 "Overcoming tech limitations: My journey of reverse-engineering a local gym's"
 " app to include older Android devices, highlighting issues of digital "
 "exclusion."
+
+msgid "cv"
+msgstr "CV"
+
+msgid "_ROLES"
+msgstr "Funciones"
+
+msgid "_PROJECTS"
+msgstr "Proyectos"
+
+msgid "_LINK"
+msgstr "Enlance"
+
+msgid "MILTER_NOTIFY_DESC"
+msgstr ""
+"Milter Notify es un milter que le notifica cuando el servidor recibe un "
+"nuevo correo electrónico."
+
+msgid "SKE_PROJECT_DESC"
+msgstr ""
+"Toda una plataforma educativa para enseñar programación a los niños. Incluye"
+" una aplicación web, un lenguaje interpretado fácil de aprender, un sistema "
+"de concursos y tareas, ¡y mucho más! ¡Probado en más de 100 participantes!"

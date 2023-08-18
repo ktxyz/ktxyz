@@ -20,7 +20,15 @@
         "VALUE": "Blog"
     },
     {
+        "KEY": "cv",
+        "VALUE": "CV"
+    },
+    {
         "KEY": "reverse-engineering-gym-app",
         "VALUE": "Reverse-Engineering a Gym App for Fun & Friends"
+    },
+    {
+        "KEY": "_LINK",
+        "VALUE": "Links"
     }
 ]
