@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% block title %}
+    <title>{{ 'title' | gettext(lang) }}</title>
+    {% endblock title %}
+
+    {% block css_includes %}
+    <link rel="stylesheet" href="{{ 'style_css__asset' | geturl }}">
+        {% block css_includes_additional %}
+        {% endblock css_includes_additional %}
+    {% endblock css_includes %}
+
+    {% block css_inline %}
+    {% endblock css_inline %}
+</head>
+<body>
+    <main>
+        {% include 'layout/header.html' %}
+        <section id="content" class="flex f-col f-center">
+            {% block content %}
+            {% endblock content %}
+        </section>
+        {% include 'layout/footer.html' %}
+    </main>
+</body>
+</html>

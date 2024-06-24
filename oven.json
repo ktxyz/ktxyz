@@ -1,0 +1,68 @@
+{
+    "source_dir": "content",
+    "build_dir": "build",
+
+    "static_dir": "_static",
+
+    "theme_dir": "theme",
+    "default_template_name": "page.html",
+
+    "locales_dir": "locales",
+    "locales_main": "en",
+    "locales_langs": ["en", "pl"],
+
+    "filters_dir": "filters",
+    "enabled_filters": ["gettext", "geturl", "getversion"],
+
+    "extensions_dir": "extensions",
+    "enabled_extensions": ["oven_urls", "fenced_code"],
+
+    "scripts_dir": "scripts",
+    "enabled_scripts": ["robots.txt", "make_index", "sitemap.xml", "clean", "assets",
+                        "versioning"],
+    "scripts_config": {
+        "robots.txt": {
+            "output_file": "robots.txt"
+        },
+        "sitemap.xml": {
+            "ignore_paths": [
+                "_archive"
+            ]
+        },
+        "clean": {
+            "ignore_paths": [
+                "_archive"
+            ]
+        },
+        "archive": {
+            "ignore_paths": [
+                "_archive"
+            ],
+
+            "generate_zip": true,
+            "zip_dir": "_archive",
+
+            "generate_raw": true,
+            "raw_dir": "_archive"
+        },
+        "assets": {
+            "ignore_paths": [
+                "build"
+            ],
+            "types": [
+                ".css",
+                ".js",
+                ".png",
+                ".otf",
+                ".pdf",
+                ".svg"
+            ]
+        },
+        "make_index": {
+            "index_output_name": "home"
+        }
+    },
+    "site_timezone": "Europe/Warsaw",
+    "site_url": "https://tokarski.xyz",
+    "site_root": ""
+}
