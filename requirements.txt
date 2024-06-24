@@ -1,0 +1,6 @@
+Jinja2==3.1.4
+Markdown==3.6
+MarkupSafe==2.1.5
+oven-cli==0.1.3
+polib==1.2.0
+pytz==2024.1

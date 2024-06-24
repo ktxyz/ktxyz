@@ -1,0 +1,78 @@
+{% extends 'page.html' %}
+
+{% block css_includes_additional %}
+<link rel="stylesheet" href="{{ 'home_css__asset' | geturl }}">
+{% endblock %}
+
+{% block title %}
+<title>{{ 'home-title' | gettext(lang) }}</title>
+{% endblock %}
+
+{% block content %}
+<section class="alert">
+    <h3>{{ 'rebuild-alert' | gettext(lang) }}</h3>
+</section>
+
+<div id="home">
+    <section id="home-about">
+        <h4>{{ 'about' | gettext(lang) }}</h4>
+        <section class="sect-labeled">
+            <h4 class="label">{{ 'name' | gettext(lang) }}:</h4>
+            <h1 class="labeled">Kamil Tokarski</h1>
+        </section>
+        <section class="sect-labeled">
+            <h4 class="label">bio:</h4>
+            <p class="labeled">{{ 'bio' | gettext(lang) }}</p>
+        </section>
+        <section class="sect-labeled">
+            <h4 class="label">{{ 'work' | gettext(lang) }}:</h4>
+            <h1 class="labeled">NVIDIA</h1>
+        </section>
+        <section class="sect-labeled">
+            <h4 class="label">{{ 'links' | gettext(lang) }}:</h4>
+            <div class="labeled flex f-col">
+                <a href="https://www.linkedin.com/in/ktxyz/">LinkedIn @ ktxyz</a>
+                <a href="https://github.com/ktxyz">Github @ ktxyz</a>
+                <a href="https://www.codewars.com/users/ktxyz">Codewars @ ktxyz</a>
+                <a href="https://www.youtube.com/channel/UCpaK4zHuSR5YfPL-jajblcg">Youtube @ ktxyz</a>
+            </div>
+        </section>
+    </section>
+    <section id="home-minigame">
+        <h4>{{ 'game' | gettext(lang) }}</h4>
+        <noscript>
+            <p>
+                {{ 'game-no-js' | gettext(lang) }}
+            </p>
+        </noscript>
+
+        <!-- TODO: -->
+        <!-- Write a simple mini-game to showcase -->
+        <div id="home-game" class="flex f-center">
+            <h1>
+                {{ 'nothing-to-see' | gettext(lang) }}
+            </h1>
+        </div>
+    </section>
+    <section id="home-highlights">
+        <h4>{{ 'highlights' | gettext(lang) }}</h4>
+
+        <!-- TODO: -->
+        <!-- Swap this hardcoded to extensions -->
+        <section class="flex f-center">
+            <h1>
+                {{ 'nothing-to-see' | gettext(lang) }}
+            </h1>
+        </section>
+    </section>
+    <section id="home-newest">
+        <h4>{{ 'newest' | gettext(lang) }}</h4>
+
+        <section class="flex f-center">
+            <h1>
+                {{ 'nothing-to-see' | gettext(lang) }}
+            </h1>
+        </section>
+    </section>
+</div>
+{% endblock content %}

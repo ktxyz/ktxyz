@@ -1,0 +1,51 @@
+#
+msgid ""
+msgstr ""
+
+msgid "title"
+msgstr ""
+
+msgid "home-title"
+msgstr "Kamil Tokarski - Software Engineer"
+
+msgid "home-this"
+msgstr "home"
+
+msgid "rebuild-alert"
+msgstr "website rebuilding is in progress..."
+
+msgid "about"
+msgstr "about"
+
+msgid "name"
+msgstr "name"
+
+msgid "bio"
+msgstr "I'm a software engineer specializing in game development and (GPU) performance analysis. I have an interest in open-source, computer science, TTRPGs and anything compute."
+
+msgid "work"
+msgstr "work"
+
+msgid "links"
+msgstr "links"
+
+msgid "game"
+msgstr "mini-game"
+
+msgid "game-no-js"
+msgstr "mini-game requires JS enabled"
+
+msgid "nothing-to-see"
+msgstr "nothing to see yet"
+
+msgid "highlights"
+msgstr "highlights"
+
+msgid "newest"
+msgstr "newest"
+
+msgid "made-with"
+msgstr "made with"
+
+msgid "version-short"
+msgstr "ver"

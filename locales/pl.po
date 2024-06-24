@@ -1,0 +1,60 @@
+#
+msgid ""
+msgstr ""
+
+msgid "title"
+msgstr ""
+
+#, fuzzy
+msgid "home-title"
+msgstr "Kamil Tokarski - Inżynier Oprogramowania"
+
+msgid "home-this"
+msgstr "home"
+
+msgid "rebuild-alert"
+msgstr "przebudowa strony uruchomiona..."
+
+msgid "about"
+msgstr "o mnie"
+
+msgid "name"
+msgstr "imię"
+
+msgid "bio"
+msgstr "Jestem inżynierem oprogramowania specjalizującym się w game-devie i optymizacji (GPU). W wolnym czasie zajmuję się open-sourcem, algorytmiką, RPGami i wszystkim innym co \"oblicza\"."
+
+msgid "work"
+msgstr "praca"
+
+#, fuzzy
+msgid "links"
+msgstr "linki"
+
+#, fuzzy
+msgid "game"
+msgstr "mini-gierka"
+
+#, fuzzy
+msgid "game-no-js"
+msgstr "mini-gierka wymaga włączonego JS"
+
+#, fuzzy
+msgid "nothing-to-see"
+msgstr "na razie brak treści"
+
+#, fuzzy
+msgid "highlights"
+msgstr "wyróżnione"
+
+#, fuzzy
+msgid "newest"
+msgstr "najnowsze"
+
+#, fuzzy
+msgid "made-with"
+msgstr "stworzone z"
+
+#, fuzzy
+msgid "version-short"
+msgstr "wer"

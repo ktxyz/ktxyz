@@ -1,0 +1,28 @@
+<header class="flex">
+    <nav class="flex">
+        <!-- <section class="flex f-center">
+            <a href="Home">Home</a>
+        </section> -->
+
+        <!-- <section class="flex f-center">
+            <a href="Home">CV</a>
+        </section>
+
+        <section class="flex f-center">
+            <a href="Home">Blog</a>
+        </section> -->
+    </nav>
+    <nav class="flex">
+        {% for available_lang in config.locales_langs %}
+            {% if available_lang == lang %}
+            <section class="flex f-center">
+                <span>{{ available_lang }}</span>
+            </section>
+            {% else %}
+            <section class="flex f-center">
+                <a href="{{ this | geturl(available_lang) }}">{{ available_lang }}</a>
+            </section>
+            {% endif %}
+        {% endfor %}
+    </nav>
+</header>
