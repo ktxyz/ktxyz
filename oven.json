@@ -1,6 +1,6 @@
 {
     "source_dir": "content",
-    "build_dir": "build",
+    "build_dir": "docs",
 
     "static_dir": "_static",
 

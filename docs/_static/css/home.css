@@ -1,0 +1,52 @@
+#home {
+    display: grid;
+    grid-template-columns: .6fr .4fr;
+    grid-template-rows: .6fr .4fr;
+
+    margin: auto;
+
+    margin-top: 1rem;
+}
+
+#home section {
+    border: var(--default-border);
+}
+
+#home section {
+    padding: 1rem;
+}
+
+#home > section {
+    margin: -1px;
+}
+
+#home-game {
+    border: var(--default-border);
+    margin: -1px;
+
+    min-width: 100%;
+    min-height: calc(100% - var(--body-padding) * 4)
+}
+
+@media screen and (max-width: 799px) {
+    #home {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #home-about {
+        order: 1;
+    }
+
+    #home-minigame {
+        order: 4;
+    }
+
+    #home-highlights {
+        order: 3;
+    }
+
+    #home-newest {
+        order: 2;
+    }
+}
